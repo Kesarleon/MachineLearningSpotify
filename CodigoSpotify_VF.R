@@ -206,3 +206,5 @@ varImpPlot(rf)
 (Precision_rf<-sum(diag(rf$confusion[,-3]))/sum(rf$confusion[,-3]))
 
 fourfoldplot(rf$confusion[,-3])
+
+###
