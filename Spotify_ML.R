@@ -1,10 +1,6 @@
 library(spotifyr)
 library(tidyverse)
 
-Sys.setenv("SPOTIFY_CLIENT_ID" = '8dabc4c0795a4b0ea6544e0f21967c2a')
-Sys.setenv("SPOTIFY_CLIENT_SECRET" = '4f8a2d3aeb8d484e82278746a442a3e8')
-playlist_username <- 'Masterpiece in progress'
-playlist_uris <- c('2tiye2096SXAS4uMnFsUFP')
 
 # Credenciales de conexión para la API de Spotify
 get_spotify_access_token(client_id = Sys.getenv("SPOTIFY_CLIENT_ID"),
