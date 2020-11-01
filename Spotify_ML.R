@@ -2,10 +2,6 @@ library(spotifyr)
 library(tidyverse)
 
 
-# Credenciales de conexión para la API de Spotify
-get_spotify_access_token(client_id = Sys.getenv("SPOTIFY_CLIENT_ID"),
-                         client_secret = Sys.getenv("SPOTIFY_CLIENT_SECRET"))
-
 # Obtener la playlist desde la API
 masterpiece <- get_playlist_audio_features(playlist_username, playlist_uris)
 
