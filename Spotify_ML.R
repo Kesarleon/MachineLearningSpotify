@@ -76,7 +76,7 @@ roc_obj
 plot(roc_obj)
 coords(roc_obj, "best", "threshold", transpose = T)
 
-predicted.classes <- ifelse(probabilities > 0.88, "22xma24ys4af6t67voqa263qa", "kesarleon")
+predicted.classes <- ifelse(probabilities > 0.88, "LMM", "kesarleon")
 
 
 # Precisión del modelo
